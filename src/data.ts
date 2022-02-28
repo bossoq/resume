@@ -1,187 +1,179 @@
-export const fullVersionLink = "https://resume.narze.live"
-export const sourceLink = "https://github.com/narze/resume"
+export const fullVersionLink = "https://resume.bossoq.live";
+export const sourceLink = "https://github.com/bossoq/resume";
 export const ogImageUrl =
-  "https://og-image.vercel.app/Resumette.png?theme=light&md=1&fontSize=200px&images=https%3A%2F%2Fassets.vercel.com%2Fimage%2Fupload%2Ffront%2Fassets%2Fdesign%2Fvercel-triangle-black.svg"
+  "https://og-image.vercel.app/Resumette.png?theme=light&md=1&fontSize=200px&images=https%3A%2F%2Fassets.vercel.com%2Fimage%2Fupload%2Ffront%2Fassets%2Fdesign%2Fvercel-triangle-black.svg";
 
 export const introData = {
-  name: "Manassarn Manoonchai",
-  nickname: "Noom",
+  name: "Kittipos Wajakajornrit",
+  nickname: "Pos",
   phone: "",
-  email: "manassarn@gmail.com",
-  github: "narze",
-  linkedin: "manassarn",
+  email: "kwajakajornrit@gmail.com",
+  github: "bossoq",
+  linkedin: "kittiposw",
   location: "Bangkok, Thailand",
-  website: "narze.live",
-}
+  website: "bossoq.live",
+};
 
 export const technologies = [
   {
     section: "Languages:",
     details:
-      "Ruby, JavaScript, Node.js (strong). TypeScript, SQL (proficient).",
+      "Python (strong), SQL (strong), TypeScript/JavaScript, Node.js, VBA/Macro",
   },
   {
     section: "Frameworks:",
-    details:
-      "Ruby on Rails, ReactJS, NextJS, NestJS, SvelteJS, TailwindCSS, Bootstrap",
+    details: "Pandas, Mathplotlib, ReactJS, NextJS, TailwindCSS",
   },
   {
     section: "Tools:",
-    details:
-      "Git, Terraform, Docker, Kubernetes, Helm, ArgoCD, FluxCD, Robot Framework, Selenium, Zsh, GitHub Codespaces",
+    details: "Git, Docker, Selenium, Zsh, Vercel, GitHub Actions",
   },
   {
-    section: "Other:",
-    details:
-      "AWS, GCP, Firebase, Vercel, DigitalOcean, Cloud66, Github Actions, CircleCI, CloudFlare",
+    section: "Typing:",
+    details: "English: 90 wpm (QWERTY); Thai: 60 wpm (Manoonchai)",
   },
-]
+];
 
 export const educations = [
   {
-    head: "B.Eng. Computer Engineering",
-    details: "Chulalongkorn University, TH. 2007-2010 (GPA 3.45)",
+    head: "M.Sci. in Financial Management",
+    details: "Thammasat University, TH. 2016-2017 (GPA 3.63)",
   },
-]
+  {
+    head: "B.Acc. (Second-class Honors)",
+    details: "Thammasat University, TH. 2012-2016 (GPA 3.35)",
+  },
+];
 
 export const workExperiences = [
   {
-    position: "Senior Infrastructure Software Engineer",
-    company: "OPN TH",
-    url: "https://opn.ooo/",
-    years: ["2021", "Current"],
+    position: "Developer",
+    company: "Kasikorn Line",
+    url: "https://www.linebk.com/",
+    years: ["Dec 2021", "current"],
     details: [
-      "Containerized, developed, and maintained Opn.Store infrastructure on EKS across multiple environments using Terraform, Docker, Kubernetes, and Helm",
-      "Designed architecture using Microservices Pattern & Domain-Driven Design on Sales Promotion feature for Opn.Store",
-      "Helped, and collaborated with software engineering team on coding with good practices and lowering technical debt",
-      "Researched & introduced modern web technologies to the team, such as SvelteJS, TailwindCSS, Vite, etc.",
+      "Develop and maintain programs for internal reporting teams",
+      "Build and modify the system applications to ensure that applications up to date",
+      "Production deploymentand standby to support users",
+      "Support UAT and testing system with users and find the best solution if needed",
     ],
   },
   {
-    position: "Full-stack Developer, Co-founder",
-    company: "EventPop",
-    url: "https://eventpop.me",
-    years: ["2015", "2021"],
+    position: "Consultant",
+    company: "Baker Tilly (Thailand)",
+    url: "https://bakertilly.co.th/",
+    years: ["Nov 2018", "Nov 2021"],
     details: [
-      "Designed, developed and maintained several core services for EventPop website (Ticketing, Seating, Payment, Fee Calculation, Line Item, Billing, Reporting, APIs, etc.) using Ruby on Rails",
-      "Researched & applied improvements for development workflow. Testing libraries : RSpec, Guard, VCR, Capybara, Selenium, Cucumber, Timecop. CI/CD : CircleCI, Github Actions, Drone CI, ArgoCD, FluxCD, Terraform",
-      "Maintained server operations, deployments, containerization with Docker & Kubernetes, CI/CD. Also pioneered DevOps practices in the team",
-      "Integrated 3rd-party services : Kerry Express, DHL, Queue-It, Refund Protect, Skootar, Tanita Body Scale",
-      "Integrated payment service providers : Omise, ThaiEPay, 123 by 2C2P, SCB-Easy, K-PayPlus, K-PaymentGateway",
+      "Perform Financial Projection to support Transaction Advisory Services, Independent Financial Advisor Reports and Feasibility Studies",
+      "Perform Quantification Reports to support in international arbitrations",
+      "Analyze NPL portfolios to quantify reasonable values for various sellers",
+      "Perform Rehabilitation Plan for steel industry company",
+      "Perform Cash Flow Monitoring for companies under restructuring or rescheduling plan",
     ],
   },
   {
-    position: "Maker, Co-founder",
-    company: "Maker Zoo",
-    url: "https://fb.me/makerzoo",
-    years: ["2014", "2016"],
+    position: "Senior Auditor Assistant",
+    company: "EY (Thailand)",
+    url: "https://www.ey.com/en_th/",
+    years: ["2017", "Oct 2018"],
     details: [
-      "Pioneered Maker Movement in Thailand by opening first of the Makerspaces in Bangkok",
-      "Hosted maker workshops eg. 3D-modeling, 3D-printing, Arduino, IoT, etc",
-      "Developed hardware-related products for clients and startups",
-      "Developed smart door lock system for Hubba, a co-working space in Bangkok",
-      "Provided 3D-printing service & consultant",
+      "Contribute audit procedures and work paper for financial related accounts",
+      "Understand client's business thoroughly to develop effective system and document flowcharts",
+      "Develop macro-enabled work paper to streamline work process and time",
     ],
   },
-  {
-    position: "Web / IoT Developer (Contract)",
-    company: "Box24",
-    url: "https://washbox24.com",
-    years: ["2015", "2016"],
-    details: [
-      "Developed internet connected Smart Lockers System using web technologies (Node.js, React.js) on embedded systems (Ubuntu Linux, Arduino, Raspberry Pi)",
-      "Developed private Node.js library to connect with Nayax via serial port to receive cashless payment on vending machines, and also supported Thai Baht cash payment",
-    ],
-  },
-  {
-    position: "Web Developer",
-    company: "Figabyte",
-    url: "https://www.facebook.com/figabyte",
-    years: ["2011", "2014"],
-    details: [
-      "Developed several Facebook web apps with CodeIgniter, using Facebook API",
-      "Developed web platform using Ruby on Rails 3 & 4",
-      "Made iOS apps for clients using PhoneGap and RubyMotion",
-    ],
-  },
-  {
-    position: "Part-time Web Developer",
-    company: "Wongnai Media (wongnai.com)",
-    url: "https://wongnai.com",
-    years: ["2010"],
-    details: [
-      "Developed a small part of website using Java with Spring MVC Framework built with Apache Maven",
-      "Learned TDD practice & making early-stage startup",
-    ],
-  },
-]
+];
 
 export const projects = [
   {
-    name: "Manoonchai",
+    name: "Sniffsbot (Twitch)",
+    details: "Twitch bot for Sniffslive (Thai Vtuber) using TwitchIO and Ably",
+    url: "github.com/Ponny035/SniffsLiveTwitchBot",
+  },
+  {
+    name: "Sniffsbot (Discord)",
     details:
-      "Modern, productive, and data-driven Thai keyboard layout. A collection of projects built with TypeScript, Elixir, Svelte",
-    url: "manoonchai.com",
+      "Discord bot for Sniffslive (Thai Vtuber) using Discord.js and Ably",
+    url: "github.com/bossoq/SniffsbotDiscord",
   },
   {
-    name: "9armbot (Contributor)",
+    name: "Sniffsbot (Webfeed)",
     details:
-      "Twitch & Discord bot for 9arm (Thai technology Youtuber). I helped re-structuring the project using TypeScript & Prisma",
-    url: "github.com/thananon/twitch_tools",
+      "Webfeed/Dashboard for Sniffslive (Thai Vtuber) using NextJS and Ably",
+    url: "github.com/bossoq/SniffsbotWebfeed",
   },
   {
-    name: "Dotfiles",
+    name: "Market Return Statistics",
     details:
-      "macOS dotfiles with setup script for self use, tested on Apple Silicon Macs (Zsh, Zinit, Dotbot, GNU Make, etc.)",
-    url: "github.com/narze/dotfiles",
+      "SET Market Return & Government Bond Yield Calculator using ReactJS",
+    url: "mktreturn.bossoq.live",
   },
   {
-    name: "#100DaysOfCode",
+    name: "Supapanya",
     details:
-      "My take on practicing modern frontend development by building small projects in 100 days",
-    url: "100daysofcode-narze.vercel.app",
+      "Website for online tutoring school using NextJS and Jitsi meeting system",
+    url: "supapanya.com",
   },
   {
-    name: "Baht.rb",
-    details: "Ruby gem to convert number to Thai Baht format",
-    url: "rubygems.org/gems/baht",
-  },
-  {
-    name: "Baht.js",
+    name: "Siew Word",
     details:
-      "Convert number to Thai Baht format, but 10x faster & fully typed.",
-    url: "npmjs.com/package/baht",
+      "Siew Word generator using NLP & machine learning (Python) and serve front-end using ReactJS",
+    url: "siewword.bossoq.live",
   },
-  {
-    name: "Resumette",
-    details:
-      "Interactive & printable résumé with tailored skills fitted in single letter page (This page!)",
-    url: "resume.narze.live",
-  },
-  {
-    name: "Popyut",
-    details:
-      "Contributed to a clone of popcat.click meme clicking game, gone viral and got 2M visitors within one week",
-    url: "github.com/popyut/popyut",
-  },
-  {
-    name: "Resound",
-    details:
-      "Remote soundboard for meetings or streaming. Uses WebRTC instead of server to host rooms.",
-    url: "github.com/narze/resound",
-  },
-  {
-    name: "Thwordle",
-    details: "Thai language Wordle clone.",
-    url: "thwordle.narze.live",
-  },
-]
+];
 
-export const interests = [
-  "Areas : Coding, Productivity & Life-hacks, Mechanical Keyboards",
-  "Typing : 120+ words per minute (Colemak Mod-DH layout)",
-  "Games : Music games, FPS, MOBA, Puzzle",
-  "Music : EDM, Rock, Japanese",
-  "Remote working is a OK. I extensively use self time tracking app for all my works.",
-  "Pets : I have 3 dogs",
-]
+export const courses = [
+  {
+    type: "certificate",
+    name: "Azure Data Fundamentals",
+    from: "Microsoft",
+    url: "www.credly.com/badges/316d1cfc-403a-478f-9ab5-e8cbf304edf9",
+  },
+  {
+    type: "training",
+    name: "Azure Fundamentals & Data Fundamentals",
+    from: "Microsoft Azure Virtual Training",
+  },
+  {
+    type: "certificate",
+    name: "Financial Advisor Certificate",
+    from: "ASCO",
+  },
+  {
+    type: "certificate",
+    name: "SQL for Data Science",
+    from: "Coursera",
+    url: "www.coursera.org/account/accomplishments/verify/6A36GQYMKSCZ",
+  },
+  {
+    type: "certificate",
+    name: "Excel Skills for Business",
+    from: "Coursera",
+    url: "www.coursera.org/account/accomplishments/specialization/6HJ5EKEB4KMT",
+  },
+  {
+    type: "certificate",
+    name: "Data Science Bootcamp",
+    from: "Datarockie",
+    url: "badgr.com/public/assertions/YytKMHL2RUG1HNCc9aFRww",
+  },
+];
+
+export const activities = [
+  {
+    prize: "Semi-final participant",
+    name: "Young Financial Start 2016",
+    details: [
+      "25-finalist from SET Investment Start: Develop and present investment plan including stock valuation, portfolio optimization and economic analysis",
+      "25-finalist from Muang Thai Life Assurance: Optimize policies in customer's portfolio give specific needs and barriers",
+      "50-finalist from TFEX: Succeed in Single License and Derivative License examinations",
+    ],
+  },
+  {
+    prize: "First Prize Winner and Creative Award",
+    name: "DSG Marketing Plan Contest 2015",
+    details: [
+      "Develop marketing plan for Cetainty, adult diapers, to take on The Digital Era",
+    ],
+  },
+];
