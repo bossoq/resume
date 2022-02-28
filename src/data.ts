@@ -21,7 +21,7 @@ export const technologies = [
   },
   {
     section: "Frameworks:",
-    details: "Pandas, Mathplotlib, ReactJS, NextJS, TailwindCSS",
+    details: "Pandas, Numpy, Mathplotlib, ReactJS, NextJS, TailwindCSS",
   },
   {
     section: "Tools:",
