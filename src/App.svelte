@@ -7,7 +7,8 @@
   import {
     educations,
     fullVersionLink,
-    interests,
+    courses,
+    activities,
     introData,
     projects,
     sourceLink,
@@ -123,14 +124,50 @@
 
   <section>
     <HideToggle />
-    <h2 class="text-2xl print:text-4xl uppercase text-left">Interests</h2>
+    <h2 class="text-2xl print:text-4xl uppercase text-left">Assesment Courses and Training</h2>
     <hr />
 
     <ul class="text-left list-disc pl-8">
-      {#each interests as interest}
+      {#each courses as course}
         <li>
           <HideToggle />
-          {interest}
+          {#if course.type == 'certificate'}
+          <strong>{course.name}</strong>
+          from
+          <strong>{course.from}</strong>
+          {#if course.url}
+          <a href="https://{course.url}" target="_blank" rel="noreferrer"
+            ><strong>[Certificate]</strong></a
+          >
+          {/if}
+          {:else if course.type == 'training'}
+          {course.from}: <strong>{course.name}</strong>
+          {/if}
+        </li>
+      {/each}
+    </ul>
+  </section>
+
+  <section>
+    <HideToggle />
+    <h2 class="text-2xl print:text-4xl uppercase text-left">Extracurricular Activities</h2>
+    <hr />
+
+    <ul class="text-left list-disc pl-8">
+      {#each activities as activity}
+        <li>
+          <HideToggle />
+          <strong>{activity.prize}</strong>
+          in
+          <strong>{activity.name}</strong>
+          <ul class="text-left list-disc pl-8 print:pl-6">
+            {#each activity.details as detail}
+              <li>
+                <HideToggle />
+                {detail}
+              </li>
+            {/each}
+          </ul>
         </li>
       {/each}
     </ul>
