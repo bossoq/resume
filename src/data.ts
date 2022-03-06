@@ -21,11 +21,13 @@ export const technologies = [
   },
   {
     section: "Frameworks:",
-    details: "Pandas, Numpy, Mathplotlib, ReactJS, NextJS, TailwindCSS",
+    details:
+      "Pandas, Numpy, Mathplotlib, ReactJS, NextJS, SvelteJS, TailwindCSS",
   },
   {
     section: "Tools:",
-    details: "Git, Docker, Selenium, Zsh, Vercel, GitHub Actions",
+    details:
+      "Git, Docker, Selenium, Zsh, Vercel, CloudFlare Pages, GitHub Actions",
   },
   {
     section: "Typing:",
@@ -85,6 +87,18 @@ export const workExperiences = [
 
 export const projects = [
   {
+    name: "ODD แ OUT",
+    details:
+      "Web-based game that allows users to find แ amongs เ (Odd one out) using Sveltekit, TailwindCSS and KonvaJS",
+    url: "odd-aer-out.bossoq.live",
+  },
+  {
+    name: "Siew Word",
+    details:
+      "Siew Word generator using NLP & machine learning (Python) and serve front-end using ReactJS",
+    url: "siewword.bossoq.live",
+  },
+  {
     name: "Sniffsbot (Twitch)",
     details: "Twitch bot for Sniffslive (Thai Vtuber) using TwitchIO and Ably",
     url: "github.com/Ponny035/SniffsLiveTwitchBot",
@@ -112,12 +126,6 @@ export const projects = [
     details:
       "Website for online tutoring school using NextJS and Jitsi meeting system",
     url: "supapanya.com",
-  },
-  {
-    name: "Siew Word",
-    details:
-      "Siew Word generator using NLP & machine learning (Python) and serve front-end using ReactJS",
-    url: "siewword.bossoq.live",
   },
 ];
 
