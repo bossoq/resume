@@ -87,6 +87,11 @@ export const workExperiences = [
 
 export const projects = [
   {
+    name: "Spinner",
+    details: "Web-based spinner using Sveltekit, TailwindCSS, and TypeScript",
+    url: "spinner.bossoq.live",
+  },
+  {
     name: "ODD แ OUT",
     details:
       "Web-based game that allows users to find แ amongs เ (Odd one out) using Sveltekit, TailwindCSS and KonvaJS",
